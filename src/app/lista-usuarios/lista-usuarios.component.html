@@ -1,0 +1,22 @@
+<main role="main">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Lista de Usuários</h1>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a routerLink="/usuario" [queryParams]="{ nome: 'João' }">João</a>
+            </li>
+            <li class="list-group-item">
+                <a routerLink="/usuario" [queryParams]="{ nome: 'Maria' }">Maria</a>
+            </li>
+            <li class="list-group-item">
+                <a routerLink="/usuario" [queryParams]="{ nome: 'Pedro' }">Pedro</a>
+            </li>
+        </ul>
+        <p class="text-center">
+            <a routerLink="/">Sair</a>
+        </p>
+      </div>
+    </section>
+</main>
+
